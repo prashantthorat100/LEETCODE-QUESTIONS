@@ -1,6 +1,6 @@
 # 📝 724. Find Pivot Index (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-pivot-index/?envType=problem-list-v2&envId=prefix-sum)
+🔗 [Problem Link](https://leetcode.com/problems/find-pivot-index/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

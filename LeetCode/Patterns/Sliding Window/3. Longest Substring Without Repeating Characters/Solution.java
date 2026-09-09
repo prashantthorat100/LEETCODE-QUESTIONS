@@ -17,6 +17,12 @@ class Solution {
             }
             maxLen = Math.max(maxLen, right-left+1);
         }
-        return maxLen;
+        if(s.length()==0){
+            return 0;
+        }
+        else if(s.length()==1){
+            return 1;
+        }
+        else return maxLen;
     }
 }

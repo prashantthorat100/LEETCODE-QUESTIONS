@@ -6,9 +6,10 @@ class Solution {
         if ( nums.length ==1 && target == nums[s]){
             return s;
         }
-        else{
+        else if ( nums.length ==1 && target != nums[s]){
             return -1;
         }
+        
         while(s<e){
             int mid = s + (e-s)/2;
             if(nums[mid] == target){

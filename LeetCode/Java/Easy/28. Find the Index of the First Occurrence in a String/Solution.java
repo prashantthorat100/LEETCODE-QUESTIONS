@@ -1,9 +1,6 @@
 class Solution {
     public int strStr(String haystack, String needle) {
-        if(haystack.contains(needle)==false){
-            return -1;
-        }
-
-        return 0;
+        int idx =(haystack.indexOf(needle));
+        return idx;
     }
 }

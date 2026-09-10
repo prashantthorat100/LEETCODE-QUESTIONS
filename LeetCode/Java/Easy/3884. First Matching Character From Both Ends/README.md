@@ -1,0 +1,65 @@
+# 📝 3884. First Matching Character From Both Ends (LeetCode)
+
+🔗 [Problem Link](https://leetcode.com/problems/first-matching-character-from-both-ends/?envType=problem-list-v2&envId=two-pointers)
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
+
+### 💡 Tags
+Two Pointers, String
+
+### 🚀 Performance
+- **Runtime:** N/A
+- **Memory:** N/A
+
+---
+
+### 📜 Problem Description
+
+You are given a string  `s`  of length  `n`  consisting of lowercase English letters.
+
+Return the smallest index  `i`  such that  `s[i] == s[n - i - 1]` .
+
+If no such index exists, return -1.
+
+**Example 1:**
+
+**Input:**  s = "abcacbd"
+
+**Output:**  1
+
+**Explanation:**
+
+At index  `i = 1` ,  `s[1]`  and  `s[5]`  are both  `'b'` .
+
+No smaller index satisfies the condition, so the answer is 1.
+
+**Example 2:**
+
+**Input:**  s = "abc"
+
+**Output:**  1
+
+**Explanation:**
+
+​​​​​​​At index  `i = 1` , the two compared positions coincide, so both characters are  `'b'` .
+
+No smaller index satisfies the condition, so the answer is 1.
+
+**Example 3:**
+
+**Input:**  s = "abcdab"
+
+**Output:**  -1
+
+**Explanation:**
+
+​​​​​​​For every index  `i` , the characters at positions  `i`  and  `n - i - 1`  are different.
+
+Therefore, no valid index exists, so the answer is -1.
+
+**Constraints:**
+
+	
+- `1 <= n == s.length <= 100`
+	
+- `s`  consists of lowercase English letters.

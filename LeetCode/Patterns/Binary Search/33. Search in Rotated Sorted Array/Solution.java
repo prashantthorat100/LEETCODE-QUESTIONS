@@ -3,8 +3,11 @@ class Solution {
         int s = 0 ;
         int e = nums.length-1;
 
-        if ( nums.length ==1){
+        if ( nums.length ==1 && target == nums[s]){
             return s;
+        }
+        else{
+            return -1;
         }
         while(s<e){
             int mid = s + (e-s)/2;

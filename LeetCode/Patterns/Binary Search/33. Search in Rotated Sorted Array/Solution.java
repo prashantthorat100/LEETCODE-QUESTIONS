@@ -16,7 +16,7 @@ class Solution {
                 return mid;
             }
             else if(nums[mid]>target ){
-                s = mid ;
+                e =  ;
             }
             else if( nums[mid]< target){
                 e = mid-1;

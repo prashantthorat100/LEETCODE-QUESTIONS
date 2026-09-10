@@ -3,11 +3,12 @@ class Solution {
         int s = 0;
         int e = nums.length-1;
 
-        if(nums[s]>nums[s+1]){
-            return nums[s+1];
-        }
-        else if(nums.length ==1){
+        
+        if(nums.length ==1){
             return nums[0];
+        }
+        else if(nums[s]>nums[s+1]){
+            return nums[s+1];
         }
         else if(nums[s]<nums[e]){
             return nums[s];

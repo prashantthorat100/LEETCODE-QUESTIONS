@@ -21,10 +21,13 @@ class Solution {
         while(s<e){
             int mid = s + (e-s)/2;
 
-            if(nums[mid]> nums[mid+1]){
+            if(nums[mid]> nums[mid+1] ){
                 return nums[mid+1];
             }
-            // else if(nums[s])
+            else if(nums[mid-1]>nums[mid]){
+                s = mid;
+            }
+            else if( )
         }
 
         return nums[s];

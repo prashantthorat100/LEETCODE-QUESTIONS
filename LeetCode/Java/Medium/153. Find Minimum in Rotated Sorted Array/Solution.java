@@ -24,10 +24,12 @@ class Solution {
             if(nums[mid]> nums[mid+1] ){
                 return nums[mid+1];
             }
-            else if(nums[mid-1]>nums[mid]){
-                s = mid;
+            else if(nums[mid]>nums[e]){
+                s = mid+1;
             }
-            else if( )
+            else if( nums[mid]<nums[e]){
+                e = mid;
+            }
         }
 
         return nums[s];

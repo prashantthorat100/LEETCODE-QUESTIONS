@@ -14,7 +14,7 @@ class Solution {
 
         // }
 
-        for(int i =0;i<strs[i].length();i++){
+        for(int i =0;i<strs[0].length();i++){
             int j=0;
             for(j=0;j<strs.length-1;j++){
                 if(strs[j].charAt(i)!= strs[j+1].charAt(i)){

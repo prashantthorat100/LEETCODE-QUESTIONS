@@ -1,6 +1,6 @@
 # 📝 190. Reverse Bits (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/reverse-bits/?envType=problem-list-v2&envId=bit-manipulation)
+🔗 [Problem Link](https://leetcode.com/problems/reverse-bits/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Divide and Conquer, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 42.6 MB
 
 ---
 
@@ -25,7 +25,20 @@ Reverse bits of a given 32 bits signed integer.
 
 **Explanation:**
 
-IntegerBinary432615960000001010010100000111101001110096417619200111001011110000010100101000000
+	
+		
+			Integer
+			Binary
+		
+		
+			43261596
+			00000010100101000001111010011100
+		
+		
+			964176192
+			00111001011110000010100101000000
+		
+	
 
 **Example 2:**
 
@@ -35,7 +48,20 @@ IntegerBinary4326159600000010100101000001111010011100964176192001110010111100000
 
 **Explanation:**
 
-IntegerBinary214748364401111111111111111111111111111100107374182200111111111111111111111111111110
+	
+		
+			Integer
+			Binary
+		
+		
+			2147483644
+			01111111111111111111111111111100
+		
+		
+			1073741822
+			00111111111111111111111111111110
+		
+	
 
 **Constraints:**
 

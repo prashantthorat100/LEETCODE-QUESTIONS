@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 5 / 75 (6.7%)
+- **Completed:** 6 / 75 (8.0%)
 
 ---
 
@@ -26,7 +26,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Number of 1 Bits
 - [ ] Counting Bits
 - [ ] Missing Number
-- [ ] Reverse Bits
+- [x] [Reverse Bits](./Java/Easy/190. Reverse Bits/)
 
 ### 📂 Dynamic Programming
 - [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)

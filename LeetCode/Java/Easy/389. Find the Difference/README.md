@@ -1,6 +1,6 @@
 # 📝 389. Find the Difference (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-the-difference/?envType=problem-list-v2&envId=bit-manipulation)
+🔗 [Problem Link](https://leetcode.com/problems/find-the-difference/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Hash Table, String, Bit Manipulation, Sorting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 80 ms
+- **Memory:** 43.2 MB
 
 ---
 

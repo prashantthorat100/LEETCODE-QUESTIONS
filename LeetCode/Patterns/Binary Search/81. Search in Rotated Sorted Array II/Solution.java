@@ -10,7 +10,7 @@ class Solution {
             }
 
             // Left part Sorted
-            if(nums[s]<nums[mid]){
+            if(nums[s]<=nums[mid]){
                 if(nums[s]<=target && target<nums[mid]){
                     e = mid-1;
                 }

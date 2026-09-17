@@ -9,12 +9,14 @@ class Solution {
                 return true;
             }
 
-            if(nums[s] == nums[mid] == nums[e] ){
+            if(nums[s] == nums[mid] && nums[mid] == nums[e]){
                 s++;
                 e--;
+                continue;
             }
+            
             // Left part Sorted
-            if(nums[s]<=nums[mid]){
+            if(nums[s]<nums[mid]){
                 if(nums[s]<=target && target<nums[mid]){
                     e = mid-1;
                 }

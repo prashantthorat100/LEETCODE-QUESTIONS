@@ -1,6 +1,6 @@
 # 📝 204. Count Primes (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-primes/?envType=problem-list-v2&envId=math)
+🔗 [Problem Link](https://leetcode.com/problems/count-primes/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

@@ -14,12 +14,14 @@ class Solution {
         int maxidx = 0;
         int max = freq[0];
         for(int i =1;i<freq.length;i++){
-            if(max<=freq[i]){
+            if(max<freq[i]){
                 max = freq[i];
-                // if(year[maxidx]>year[i]){
+                maxidx = i;
+            }
+            else if (freq[i] == max) {
+                if (year[i] < year[maxidx]) {
                     maxidx = i;
-                // }
-
+                }
             }
         }
         

@@ -1,6 +1,6 @@
 # 📝 1854. Maximum Population Year (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-population-year)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-population-year/?envType=problem-list-v2&envId=prefix-sum)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

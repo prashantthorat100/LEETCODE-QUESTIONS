@@ -16,7 +16,7 @@ class Solution {
         for(int i =1;i<freq.length;i++){
             if(max<=freq[i]){
                 max = freq[i];
-                if(year[maxidx]>year[i]){
+                // if(year[maxidx]>year[i]){
                     maxidx = i;
                 }
 

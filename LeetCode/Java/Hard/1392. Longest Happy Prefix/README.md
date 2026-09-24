@@ -1,6 +1,6 @@
 # 📝 1392. Longest Happy Prefix (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/longest-happy-prefix/)
+🔗 [Problem Link](https://leetcode.com/problems/longest-happy-prefix)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

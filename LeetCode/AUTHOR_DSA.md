@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 3 / 238 (1.3%)
+- **Completed:** 4 / 238 (1.7%)
 
 ---
 
@@ -130,7 +130,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Container With Most Water
 - [ ] 3Sum
 - [ ] Kth Largest Element in an Array
-- [ ] Find the Duplicate Number
+- [x] [Find the Duplicate Number](./Java/Medium/287. Find the Duplicate Number/)
 - [ ] Next Greater Element I
 - [ ] Three Elements to Maximize Expression
 - [ ] K Multiplications

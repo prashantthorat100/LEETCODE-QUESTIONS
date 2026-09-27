@@ -8,8 +8,8 @@
 String, Stack, Simulation
 
 ### 🚀 Performance
-- **Runtime:** 9 ms
-- **Memory:** 47.5 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

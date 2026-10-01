@@ -1,41 +1,42 @@
 class Solution {
     public boolean search(int[] nums, int target) {
-        int s = 0;
-        int e = nums.length-1;
 
-        while(s<=e){
-            int mid = s + (e-s)/2;
-            if(nums[mid]==target){
+        int low = 0;
+        int high = nums.length - 1;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] == target) {
                 return true;
             }
 
-            if(nums[s] == nums[mid] && nums[mid] == nums[e]){
-                s++;
-                e--;
-                continue;
+            // Cannot determine which half is sorted
+            if (nums[low] == nums[mid] && nums[mid] == nums[high]) {
+                low++;
+                high--;
             }
 
-            // Left part Sorted
-            if(nums[s]<=nums[mid]){
-                if(nums[s]<=target && target<nums[mid]){
-                    e = mid-1;
-                }
-                else{
-                    s = mid+1;
-                }
-            }
+            // Left half is sorted
+            else if (nums[low] <= nums[mid]) {
 
-            // Right Part Sorted
-            else{
-                if(nums[mid]<target && target <=nums[e]){
-                    s = mid+1;
-                }
-                else{
-                    e = mid-1;
+                if (nums[low] <= target && target < nums[mid]) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
                 }
             }
 
-            
+            // Right half is sorted
+            else {
+
+                if (nums[mid] < target && target <= nums[high]) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
         }
 
         return false;

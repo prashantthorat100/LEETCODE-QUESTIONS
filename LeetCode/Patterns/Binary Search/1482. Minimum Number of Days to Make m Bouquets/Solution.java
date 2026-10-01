@@ -34,12 +34,8 @@ class Solution {
         }
         
 
-        for(int i= minDay;i<=maxDay;i++){
-            if(numOfBouquet(bloomDay,i,m,k)==true){
-                return i;
-            }
-           
-        }
+        int midDay = minDay + (maxDay-minday)/2;
+        
             
         return -1;
     }

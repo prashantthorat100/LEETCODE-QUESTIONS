@@ -8,10 +8,10 @@ class Solution {
 
     }
     public int smallestDivisor(int[] nums, int threshold) {
-        int mini = Integer.MAX_VALUE;
+        int mini = 1;
         int maxi = Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++){
-            mini = Math.min(mini,nums[i]);
+            // mini = Math.min(mini,nums[i]);
             maxi = Math.max(maxi,nums[i]);
         }
 

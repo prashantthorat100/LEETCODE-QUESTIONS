@@ -34,9 +34,17 @@ class Solution {
         }
         
 
-        int midDay = minDay + (maxDay-minday)/2;
         
-            
-        return -1;
+        while(minDay<=maxDay){
+            int midDay = minDay + (maxDay-minDay)/2;
+            if(numOfBouquet(bloomDay, midDay, m, k)){
+                maxDay = midDay-1;
+            }
+            else{
+                minDay = midDay+1;
+            }
+
+        }    
+        return minDay;
     }
 }

@@ -12,7 +12,7 @@ class Solution {
 
             //mid on line 1 
             if(nums[low]<=nums[mid]){
-                if(nums[low]<=target && target<nums[mid]){
+                if(nums[low]<=target && target<=nums[mid]){
                     high = mid-1;
                 }
                 else{

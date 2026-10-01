@@ -20,7 +20,7 @@ class Solution {
             return false;
     }
     public int minDays(int[] bloomDay, int m, int k) {
-        if(m*k > bloomDay.length){
+        if((long)m*k > bloomDay.length){
             return -1;
         }
 
@@ -34,7 +34,7 @@ class Solution {
         }
         
 
-        
+        // int ans = maxDay;
         while(minDay<=maxDay){
             int midDay = minDay + (maxDay-minDay)/2;
             if(numOfBouquet(bloomDay, midDay, m, k)){
@@ -45,6 +45,6 @@ class Solution {
             }
 
         }    
-        return minDay;
+        return minDay ;
     }
 }

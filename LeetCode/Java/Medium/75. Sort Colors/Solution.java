@@ -1,24 +1,49 @@
 class Solution {
-    public void sortColors(int[] arr) {
-        int largest = Integer.MIN_VALUE;
+    public void merge(int nums[],int mid , int si, int ei){
+        int temp[] = new int[ei-si+1];
+        int i = si;//left iterator
+        int j = mid+1;//right iterator
+        int k = 0;
 
-        for(int i=0;i<arr.length;i++){
-            largest = Math.max(largest,arr[i]);
-        }
-
-        int count[] = new int [largest+1];
-        for(int i=0;i<arr.length;i++){
-            count[arr[i]]++;
-        }
-
-        // sorting
-        int j=0;
-        for(int i=0;i<count.length;i++){
-            while(count[i]>0){
-                arr[j] =i;
+        while(i<=mid && j<=ei){
+            if(nums[i]<nums[j]){
+                temp[k] = nums[i];
+                k++;
+                i++;
+            }else{
+                temp[k] = nums[j];
+                k++;
                 j++;
-                count[i]--;
             }
         }
+
+        // left part 
+        while(i<=mid){
+            temp[k++]= nums[i++];
+        }
+        // right part
+        while(j<=ei){
+            temp[k++]= nums[j++];
+        }
+
+        //copy in main array
+        for(k=0, i=si;k<temp.length;k++, i++){
+            nums[i] = temp[k];
+        }
+
+    }
+
+    public void MergeSort(int nums[],int si, int ei){
+        if(si >= ei){
+            return;
+        }
+        int mid = si + (ei-si)/2;
+        MergeSort(nums,si,mid);
+        MergeSort(nums,mid+1,ei);
+        merge(nums, mid, si,ei);
+
+    }
+    public void sortColors(int[] nums) {
+        MergeSort(nums,0,nums.length-1);
     }
 }

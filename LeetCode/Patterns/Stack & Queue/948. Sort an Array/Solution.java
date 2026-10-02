@@ -1,51 +1,50 @@
 class Solution {
-    public int[] sortArray(int[] nums) {
-        mergeSort(nums, 0, nums.length - 1);
-        return nums;
-    }
-
-    public void mergeSort(int[] nums, int left, int right) {
-        if (left >= right) {
-            return;
-        }
-
-        int mid = left + (right - left) / 2;
-
-        mergeSort(nums, left, mid);
-        mergeSort(nums, mid + 1, right);
-
-        merge(nums, left, mid, right);
-    }
-
-    public void merge(int[] nums, int left, int mid, int right) {
-        int[] temp = new int[right - left + 1];
-
-        int i = left;
-        int j = mid + 1;
+     public void merge(int nums[],int mid , int si, int ei){
+        int temp[] = new int[ei-si+1];
+        int i = si;//left iterator
+        int j = mid+1;//right iterator
         int k = 0;
 
-        // Compare elements from both halves
-        while (i <= mid && j <= right) {
-            if (nums[i] <= nums[j]) {
-                temp[k++] = nums[i++];
-            } else {
-                temp[k++] = nums[j++];
+        while(i<=mid && j<=ei){
+            if(nums[i]<nums[j]){
+                temp[k] = nums[i];
+                k++;
+                i++;
+            }else{
+                temp[k] = nums[j];
+                k++;
+                j++;
             }
         }
 
-        // Remaining elements from left half
-        while (i <= mid) {
-            temp[k++] = nums[i++];
+        // left part 
+        while(i<=mid){
+            temp[k++]= nums[i++];
+        }
+        // right part
+        while(j<=ei){
+            temp[k++]= nums[j++];
         }
 
-        // Remaining elements from right half
-        while (j <= right) {
-            temp[k++] = nums[j++];
+        //copy in main array
+        for(k=0, i=si;k<temp.length;k++, i++){
+            nums[i] = temp[k];
         }
 
-        // Copy sorted elements back
-        for (int x = 0; x < temp.length; x++) {
-            nums[left + x] = temp[x];
+    }
+
+    public void MergeSort(int nums[],int si, int ei){
+        if(si >= ei){
+            return;
         }
+        int mid = si + (ei-si)/2;
+        MergeSort(nums,si,mid);
+        MergeSort(nums,mid+1,ei);
+        merge(nums, mid, si,ei);
+
+    }
+    public int[] sortArray(int[] nums) {
+        MergeSort(nums,0,nums.length-1);
+        return nums;
     }
 }

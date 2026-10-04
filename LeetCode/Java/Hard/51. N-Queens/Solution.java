@@ -1,32 +1,19 @@
 class Solution {
-
-    public List<List<String>> solveNQueens(int n) {
-
-        List<List<String>> result = new ArrayList<>();
-
-        char board[][] = new char[n][n];
-
-        // Initialize board
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                board[i][j] = '.';
-            }
+    public void printBoard(char board[][], List<List<String>> result) {
+        List<String> currentBoard = new ArrayList<>();
+        for(int i = 0; i < board.length; i++){
+            currentBoard.add(new String(board[i]));
         }
-
-        nQueens(board, 0, result);
-
-        return result;
+        result.add(currentBoard);
     }
 
     public boolean isSafe(char board[][], int row, int col){
-
         // Vertical up
         for(int i = row - 1; i >= 0; i--){
             if(board[i][col] == 'Q'){
                 return false;
             }
         }
-
         // Upper-left diagonal
         for(int i = row - 1, j = col - 1;
             i >= 0 && j >= 0;
@@ -56,31 +43,44 @@ class Solution {
         // Base case
         if(row == board.length){
 
-            List<String> currentBoard = new ArrayList<>();
-
-            for(int i = 0; i < board.length; i++){
-                currentBoard.add(new String(board[i]));
-            }
-
-            result.add(currentBoard);
+            printBoard(board, result);
 
             return;
         }
 
         // Try every column
-        for(int col = 0; col < board.length; col++){
+        for(int j = 0; j < board.length; j++){
 
-            if(isSafe(board, row, col)){
+            if(isSafe(board, row, j)){
 
-                // Place queen
-                board[row][col] = 'Q';
+                // Place Queen
+                board[row][j] = 'Q';
 
-                // Move to next row
+                // Recursion
                 nQueens(board, row + 1, result);
 
-                // Backtrack
-                board[row][col] = '.';
+                // Backtracking
+                board[row][j] = '.';
             }
         }
+    }
+
+
+    public List<List<String>> solveNQueens(int n) {
+
+        List<List<String>> result = new ArrayList<>();
+
+        char board[][] = new char[n][n];
+
+        // Initialize board
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                board[i][j] = '.';
+            }
+        }
+
+        nQueens(board, 0, result);
+
+        return result;
     }
 }

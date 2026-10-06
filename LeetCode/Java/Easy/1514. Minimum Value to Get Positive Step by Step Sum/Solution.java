@@ -14,12 +14,10 @@ class Solution {
             return 1;
         }
         else{
-            if(min<0){
+            
                 return 1-min;
-            }
-            else{
-                return 1+min;
-            }
+            
+           
         }
     }
 }

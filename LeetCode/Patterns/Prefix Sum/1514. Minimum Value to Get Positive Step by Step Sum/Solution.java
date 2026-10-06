@@ -10,14 +10,11 @@ class Solution {
             min = Math.min(min,prefixSum[i]);
         }
 
-        if(min==1 || min==0){
+        if(min>=0){
             return 1;
         }
         else{
-            
-                return 1-min;
-            
-           
+            return 1-min;
         }
     }
 }

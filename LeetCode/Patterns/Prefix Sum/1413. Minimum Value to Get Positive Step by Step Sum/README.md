@@ -1,6 +1,6 @@
 # 📝 1413. Minimum Value to Get Positive Step by Step Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/?envType=problem-list-v2&envId=prefix-sum)
+🔗 [Problem Link](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

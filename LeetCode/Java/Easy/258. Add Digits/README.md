@@ -1,6 +1,6 @@
 # 📝 258. Add Digits (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/add-digits/?envType=problem-list-v2&envId=math)
+🔗 [Problem Link](https://leetcode.com/problems/add-digits/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

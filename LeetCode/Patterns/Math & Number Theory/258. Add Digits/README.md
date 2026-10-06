@@ -1,6 +1,6 @@
 # 📝 258. Add Digits (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/add-digits/?envType=problem-list-v2&envId=math)
+🔗 [Problem Link](https://leetcode.com/problems/add-digits/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Math, Simulation, Number Theory
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 42.3 MB
 
 ---
 

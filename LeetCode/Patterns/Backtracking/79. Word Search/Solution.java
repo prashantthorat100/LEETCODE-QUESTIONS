@@ -8,7 +8,7 @@ class Solution {
         if(board[i][j]!=word.charAt(idx)){
             return false;
         }
-        if(idx==word.length()){
+        if(idx==word.length()-1){
             return true;
         }
 

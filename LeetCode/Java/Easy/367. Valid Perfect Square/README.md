@@ -1,6 +1,6 @@
 # 📝 367. Valid Perfect Square (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/valid-perfect-square)
+🔗 [Problem Link](https://leetcode.com/problems/valid-perfect-square/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

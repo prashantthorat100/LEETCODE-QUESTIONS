@@ -17,11 +17,13 @@ class Solution {
         char ch = board[i][j];
         board[i][j]= '*';
 
-        return check(board,word,i+1,j,idx+1)||
+        boolean res= check(board,word,i+1,j,idx+1)||
                 check(board,word,i-1,j,idx+1)||
                 check(board,word,i,j+1,idx+1)||
                 check(board,word,i,j-1,idx+1);
-                
+        
+        board[i][j]=ch;
+        return res;
 
 
     }

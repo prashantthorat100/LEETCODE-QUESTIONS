@@ -14,10 +14,7 @@ class Solution {
             return 1;
         }
         else{
-            
-                return 1-min;
-            
-           
+            return 1-min;
         }
     }
 }

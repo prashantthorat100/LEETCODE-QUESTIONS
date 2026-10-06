@@ -21,6 +21,7 @@ class Solution {
                 check(board,word,i-1,j,idx+1)||
                 check(board,word,i,j+1,idx+1)||
                 check(board,word,i,j-1,idx+1);
+                
 
 
     }

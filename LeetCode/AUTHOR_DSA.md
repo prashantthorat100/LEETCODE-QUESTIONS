@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 19 / 238 (8.0%)
+- **Completed:** 20 / 238 (8.4%)
 
 ---
 
@@ -234,7 +234,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Group Anagrams
 - [ ] First Unique Character
 - [ ] Longest Palindrome
-- [ ] Sort Characters by Frequency
+- [x] [Sort Characters by Frequency](./Java/Medium/451. Sort Characters By Frequency/)
 - [ ] Isomorphic Strings
 - [ ] Reconstruct Original Digits from English
 - [ ] Sort Vowels in a String

@@ -17,7 +17,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Add Digits](./Java/Easy/258. Add Digits/)
 
 ### 📂 MODULE  2.2: SPECIAL NUMBER IDENTITIES A
-- [x] [Harshad Number](./Java/Easy/3099. Harshad Number/)
+- [x] [Harshad Number](./Java/Easy/3371. Harshad Number/)
 - [ ] Check if Number is Fascinating
 - [ ] Rotated Digits
 - [x] [Happy Number](./Java/Easy/202. Happy Number/)

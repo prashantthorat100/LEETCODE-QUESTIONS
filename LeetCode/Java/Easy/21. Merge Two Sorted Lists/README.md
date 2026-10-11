@@ -1,6 +1,6 @@
 # 📝 21. Merge Two Sorted Lists (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=linked-list)
+🔗 [Problem Link](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

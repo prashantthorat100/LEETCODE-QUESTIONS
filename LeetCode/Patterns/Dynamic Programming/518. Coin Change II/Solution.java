@@ -1,23 +1,20 @@
 class Solution {
-    public int solve(int amount , int[]coins, int index){
-        // base case
+    static int solve(int amount , int[] coins, int index){
         if(amount ==0){
             return 1;
         }
         if(amount<0){
             return 0;
         }
-        if(index>=coins.length){
+        if(index >= coins.length){
             return 0;
         }
 
-        // recursive case
-        int included = solve(amount-coins[index], coins, index);
-        int excluded = solve(amount,coins, index+1);
-        return included + excluded;
+        int include = solve(amount- coins[index], coins, index);
+        int exclude = solve(amount, coins, index+1);
+        return include+exclude;
     }
     public int change(int amount, int[] coins) {
-        int index =0;
-        return solve(amount,coins,index);
+        return solve(amount, coins, 0);
     }
 }

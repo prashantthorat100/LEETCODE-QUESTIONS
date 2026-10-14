@@ -12,7 +12,7 @@
 public class Solution {
     public boolean solve(ListNode slow, ListNode fast ){
         
-        if(fast == null||fast.next== null){
+        if(fast == null || fast.next== null){
             return false;
         }
         slow = slow.next;

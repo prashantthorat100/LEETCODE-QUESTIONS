@@ -36,17 +36,17 @@ class Solution {
         mid.next = null;
 
         ListNode leftPart = head;
-        // ListNode nextLeft = leftPart ;
+        ListNode nextLeft = leftPart ;
         ListNode rightPart = reverse(rightHead);
-        // ListNode nextRight;
+        ListNode nextRight;
 
         while(leftPart!=null && rightPart!=null){
-            ListNode nextLeft = leftPart.next;
-            ListNode nextRight = rightPart.next;
-
+            nextLeft = leftPart.next;
             leftPart.next = rightPart;
-            rightPart.next = nextLeft;
 
+            nextRight = rightPart.next;
+            rightPart.next = nextLeft;
+            
             leftPart = nextLeft;
             rightPart = nextRight;
         }

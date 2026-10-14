@@ -25,12 +25,12 @@ public class Solution {
         }
         slow = head;
         // ListNode prev = null;
-        int index =0;
+        // int index =0;
         while(slow!= fast){
             // prev= fast;
             slow = slow.next;
             fast = fast.next;
-            index++;
+            // index++;
 
         }
         return slow;

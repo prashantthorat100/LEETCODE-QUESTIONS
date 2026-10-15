@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 22 / 100 (22.0%)
+- **Completed:** 23 / 100 (23.0%)
 
 ---
 
@@ -48,7 +48,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Linked List Cycle II](./Java/Medium/142. Linked List Cycle II/)
 - [x] [Merge Two Sorted Lists](./Java/Easy/21. Merge Two Sorted Lists/)
 - [x] [Remove Nth Node From End of List](./Java/Medium/19. Remove Nth Node From End of List/)
-- [ ] Intersection of Two Linked Lists
+- [x] [Intersection of Two Linked Lists](./Java/Easy/160. Intersection of Two Linked Lists/)
 - [ ] Add Two Numbers
 - [ ] Copy List with Random Pointer
 - [ ] LRU Cache

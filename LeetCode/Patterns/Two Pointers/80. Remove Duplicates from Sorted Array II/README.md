@@ -1,6 +1,6 @@
 # 📝 80. Remove Duplicates from Sorted Array II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=problem-list-v2&envId=array)
+🔗 [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Two Pointers
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 48.2 MB
 
 ---
 

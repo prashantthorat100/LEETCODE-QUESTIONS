@@ -2,7 +2,7 @@ class Solution {
     // public static void print(char sudoku[][]){
     //     for(int i=0;i<9;i++){
     //         for(int j=0;j<9;j++){
-    //             System.out.print(sudoku[i][j]);
+    //             System.out.print(sudoku[i][j]+" ");
     //         }
     //         System.out.println();
     //     }
@@ -41,7 +41,6 @@ class Solution {
     }
     public static boolean sudokuSolver(char sudoku[][],int i,int j){
         if(i==9){
-            
             return true;
         }
         int nRow = i,nCol = j+1;
@@ -58,19 +57,18 @@ class Solution {
         for(int num=1;num<=9; num++){
             
                 if(isSafe(sudoku,i,j,num)){
-
                     sudoku[i][j]=(char)(num+'0');
 
                     if(sudokuSolver(sudoku, nRow, nCol)){
                         return true;
-                    }
+                    };
 
                     sudoku[i][j] = '.';
                 }
             
         }
         return false;
-    }   
+    }    
     public void solveSudoku(char[][] board) {
         sudokuSolver(board,0,0);
     }

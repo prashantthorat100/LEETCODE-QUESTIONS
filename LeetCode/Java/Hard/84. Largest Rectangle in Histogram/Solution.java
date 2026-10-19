@@ -25,7 +25,7 @@ class Solution {
                 s.pop();
             }
             if(s.isEmpty()){
-                nsl[i] = heights.length;
+                nsl[i] = -1;
             }else{
                 nsl[i] = s.peek();
             }

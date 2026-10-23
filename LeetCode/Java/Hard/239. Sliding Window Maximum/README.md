@@ -1,6 +1,6 @@
 # 📝 239. Sliding Window Maximum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/sliding-window-maximum/?envType=problem-list-v2&envId=queue)
+🔗 [Problem Link](https://leetcode.com/problems/sliding-window-maximum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 29 ms
+- **Memory:** 151.9 MB
 
 ---
 

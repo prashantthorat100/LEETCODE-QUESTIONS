@@ -42,6 +42,6 @@ class Solution {
         // Store the maximum of the last window
         result[index] = nums[deque.peekFirst()];
 
-        return result
+        return result;
     }
 }

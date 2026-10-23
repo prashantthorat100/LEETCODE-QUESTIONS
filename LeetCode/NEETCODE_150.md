@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 33 / 150 (22.0%)
+- **Completed:** 34 / 150 (22.7%)
 
 ---
 
@@ -33,7 +33,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Longest Repeating Character Replacement
 - [x] [Permutation in String](./Java/Medium/567. Permutation in String/)
 - [ ] Minimum Window Substring
-- [ ] Sliding Window Maximum
+- [x] [Sliding Window Maximum](./Java/Hard/239. Sliding Window Maximum/)
 
 ### 📂 Stack
 - [x] [Valid Parentheses](./Java/Easy/20. Valid Parentheses/)

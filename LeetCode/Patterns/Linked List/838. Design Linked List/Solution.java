@@ -107,7 +107,7 @@ class MyLinkedList {
         }
         if(temp.next==tail){
             tail = temp;
-            return;
+            
         }
         temp.next = temp.next.next;
 

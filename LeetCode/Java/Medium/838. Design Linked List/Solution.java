@@ -97,15 +97,15 @@ class MyLinkedList {
         // MyLinkedList prev = null;
 
         for(int i=0;i<index-1;i++){
-            if(temp==null){
+            if(temp.next==null){
                 return;
             }
             temp = temp.next;
         }
-        if(temp==null){
+        if(temp.next==null){
             return;
         }
-        if(temp==tail){
+        if(temp.next==tail){
             tail = temp;
             return;
         }

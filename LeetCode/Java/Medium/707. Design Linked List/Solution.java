@@ -65,10 +65,20 @@ class MyLinkedList {
         MyLinkedList newNode = new MyLinkedList(val);
         MyLinkedList temp = head;
         for(int i=0;i<index-1;i++){
+            if(temp==null){
+                return;
+            }
             temp = temp.next;
+        }
+        if(temp==null){
+            return;
         }
         newNode.next = temp.next;
         temp.next = newNode;
+
+        if(newNode.next == null){
+            tail = newNode;
+        }
     }
     
     public void deleteAtIndex(int index) {
@@ -76,7 +86,7 @@ class MyLinkedList {
             return;
         }
         if(index==0){
-            head=tail=null;
+            head= head.next;
             return;
         }
 

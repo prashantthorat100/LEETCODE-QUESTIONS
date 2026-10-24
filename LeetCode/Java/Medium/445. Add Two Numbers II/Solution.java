@@ -67,6 +67,7 @@ class Solution {
         if(carry>0){
             ListNode ans = new ListNode(carry);
             finAns.next = ans;
+            finAns = 
         }
 
 

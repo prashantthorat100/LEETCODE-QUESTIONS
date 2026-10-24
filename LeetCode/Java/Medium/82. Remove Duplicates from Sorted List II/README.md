@@ -1,6 +1,6 @@
 # 📝 82. Remove Duplicates from Sorted List II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)
+🔗 [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Linked List, Two Pointers
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 44 MB
 
 ---
 

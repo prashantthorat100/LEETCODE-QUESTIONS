@@ -85,9 +85,12 @@ class MyLinkedList {
         if(index <0 || head==null){
             return;
         }
-        if(index==0){
-            head= head.next;
-            return;
+        if(index == 0){
+            head = head.next;
+            if(head == null){
+                tail = null;
+            }
+        return;
         }
 
         MyLinkedList temp = head;

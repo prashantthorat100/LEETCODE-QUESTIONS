@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs Advanced DSA interview preparation list.
 
 ## Progress
-- **Completed:** 20 / 65 (30.8%)
+- **Completed:** 21 / 65 (32.3%)
 
 ---
 
@@ -29,7 +29,7 @@ Track your progress on the Curated 100hrs Advanced DSA interview preparation lis
 
 ### 📂 Module  1.3: Duplicate Handling & List C
 - [ ] Remove Duplicates from Sorted List
-- [ ] Remove Duplicates from Sorted List II
+- [x] [Remove Duplicates from Sorted List II](./Java/Medium/82. Remove Duplicates from Sorted List II/)
 - [ ] Remove Nodes From Linked List
 - [ ] Merge Nodes in Between Zeros
 - [ ] Insert Greatest Common Divisors in Linked List

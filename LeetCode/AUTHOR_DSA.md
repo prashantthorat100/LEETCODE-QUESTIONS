@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 34 / 238 (14.3%)
+- **Completed:** 35 / 238 (14.7%)
 
 ---
 
@@ -279,7 +279,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [x] [Linked List Cycle II](./Java/Medium/142. Linked List Cycle II/)
 - [x] [Palindrome Linked List](./Java/Easy/234. Palindrome Linked List/)
 - [x] [Remove Nth Node From End of List](./Java/Medium/19. Remove Nth Node From End of List/)
-- [ ] Delete Node in a Linked List
+- [x] [Delete Node in a Linked List](./Java/Medium/237. Delete Node in a Linked List/)
 - [ ] Delete the Middle Node of a Linked List
 - [ ] Remove Duplicates from Sorted List
 - [x] [Remove Linked List Elements](./Java/Easy/203. Remove Linked List Elements/)

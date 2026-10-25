@@ -22,14 +22,13 @@ class Solution {
 
         ListNode newNode = new ListNode(prev.val);
         newNode.next = null;
-        int maxVal = newNode.val;
+        // int maxVal = newNode.val;
         curr = prev.next;
         while(curr!=null){    
             if(curr.val >= newNode.val){
                 ListNode node = new ListNode(curr.val);
                 node.next = newNode;
                 newNode = node;
-                maxVal = node.val;
                 
             }
             curr = curr.next;

@@ -13,7 +13,7 @@ class Solution {
 
         // end sort 
         end.sort(null);
-        // start.sort(null);
+        start.sort(null);
 
         // add 1st activity
         ans.add(0);

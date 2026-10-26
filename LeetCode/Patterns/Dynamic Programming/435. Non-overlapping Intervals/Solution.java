@@ -19,11 +19,11 @@ class Solution {
 
         // add 1st activity
         maxAct =1;
-
+        int lastEnd = interval[0][2];
         for(int i=1;i< intervals.length;i++){
-            if(interval[i][1] >= interval[i-1][2]){
+            if(interval[i][1] >= lastEnd){
                 maxAct++;
-                
+                lastEnd = interval[i][2];
             }
         }
         return intervals.length-maxAct;

@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<events.length;i++){
             act[i][0] = i;
             act[i][1] = events[i][0];
-            act[i][0] = events[i][1];
+            act[i][2] = events[i][1];
         }
         int maxEvent = 0;
 

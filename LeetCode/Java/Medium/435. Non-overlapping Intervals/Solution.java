@@ -1,30 +1,31 @@
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         int n = intervals.length;
-        ArrayList<Integer> start = new ArrayList<>();
-        ArrayList<Integer> end = new ArrayList<>();
+        
+        int interval[][] = new int[intervals.length][3];
 
+
+        
         for(int i=0;i<intervals.length;i++){
-            start.add(intervals[i][0]);
-            end.add(intervals[i][1]);
+            interval[i][0]= i;
+            interval[i][1]= intervals[i][0];
+            interval[i][2]= intervals[i][1];
         }
-        ArrayList<Integer> ans = new ArrayList<>();
+        
         int maxAct = 0;
 
         // end sort 
-        end.sort(null);
-        // start.sort(null);
+        Arrays.sort(interval, Comparator.comparingDouble(o->o[2]));
 
         // add 1st activity
-        ans.add(0);
         maxAct =1;
 
-        for(int i=1;i<end.size();i++){
-            if(start.get(i)>=end.get(i-1)){
+        for(int i=1;i< intervals.length;i++){
+            if(interval[i][1] >= interval[i-1][2]){
                 maxAct++;
-                ans.add(i);
+                
             }
         }
-        return n-maxAct;
+        return intervals.length-maxAct;
     }
 }

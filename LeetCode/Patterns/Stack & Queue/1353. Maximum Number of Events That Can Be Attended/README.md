@@ -1,6 +1,6 @@
 # 📝 1353. Maximum Number of Events That Can Be Attended (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

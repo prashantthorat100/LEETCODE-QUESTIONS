@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 34 / 150 (22.7%)
+- **Completed:** 35 / 150 (23.3%)
 
 ---
 
@@ -163,7 +163,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 ### 📂 Intervals
 - [ ] Insert Interval
 - [ ] Merge Intervals
-- [ ] Non-overlapping Intervals
+- [x] [Non-overlapping Intervals](./Java/Medium/435. Non-overlapping Intervals/)
 - [ ] Meeting Rooms
 - [ ] Meeting Rooms II
 - [ ] Minimum Interval to Include Each Query

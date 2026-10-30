@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Greedy, Sorting, Longest Increasing Subsequence
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 12 ms
+- **Memory:** 46.4 MB
 
 ---
 

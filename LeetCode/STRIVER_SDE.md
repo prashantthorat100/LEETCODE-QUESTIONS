@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 29 / 76 (38.2%)
+- **Completed:** 30 / 76 (39.5%)
 
 ---
 
@@ -73,7 +73,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 
 ### 📂 Binary Tree & BST
 - [ ] Binary Tree Inorder Traversal
-- [ ] Binary Tree Preorder Traversal
+- [x] [Binary Tree Preorder Traversal](./Java/Easy/144. Binary Tree Preorder Traversal/)
 - [ ] Binary Tree Postorder Traversal
 - [ ] Binary Tree Level Order Traversal
 - [ ] Maximum Depth of Binary Tree

@@ -30,7 +30,7 @@ class Solution {
         return true;
     }
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        if(p==null){
+        if(p==null ){
             return false;
         }
         return isIdentical(p,q);

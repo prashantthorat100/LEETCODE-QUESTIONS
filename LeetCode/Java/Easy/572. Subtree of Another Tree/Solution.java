@@ -18,7 +18,7 @@ class Solution {
         if(node==null && subRoot==null){
             return true;
         }
-        else if(node==null || subRoot==null){
+        else if(node==null || subRoot==null || ){
             return false;
         }
 

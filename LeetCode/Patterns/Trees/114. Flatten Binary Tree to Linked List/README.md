@@ -1,6 +1,6 @@
 # 📝 114. Flatten Binary Tree to Linked List (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/?envType=problem-list-v2&envId=stack)
+🔗 [Problem Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

@@ -1,25 +1,19 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
+        int[] nGE = new int[nums.length];
         Stack<Integer> s = new Stack<>();
-        int nxtGreater[] = new int[nums.length];
         int N = nums.length;
-        for(int i= (2*N -1);i>=0;i--){
-            // 1 while
-            while(!s.isEmpty() && nums[s.peek()]<=nums[i%N]){
+        for(int i=2*N -1 ; i>=0;i--){
+            while(!s.isEmpty() && nums[s.peek()] <= nums[i%N]){
                 s.pop();
             }
-
-            // 2 ifelse
             if(s.isEmpty()){
-                nxtGreater[i%N] = -1;
+                nGE[i%N] = -1;
             }else{
-                nxtGreater[i%N] = nums[s.peek()];
+                nGE[i%N] = nums[s.peek()];
             }
-
-            // 3 push in s
             s.push(i%N);
         }
-        return nxtGreater;
+        return nGE;
     }
-
 }

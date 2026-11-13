@@ -1,6 +1,6 @@
 # 📝 713. Subarray Product Less Than K (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/?envType=problem-list-v2&envId=prefix-sum)
+🔗 [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -19,7 +19,7 @@ You are given an array of integers  `nums`  and an integer  `k` .
 
 Return the number of contiguous subarrays where the  **product**  of all the elements in the  **subarray**  is  **strictly less**  than  `k` .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [10,5,2,6], k = 100

@@ -4,7 +4,7 @@ class Solution {
         int product = 1;
 
         for(int i=0;i<nums.length;i++){
-            product = 1;
+            // product = 1;
             for(int j=i;j<nums.length;j++){
                 product = 1;
                 for(int p=i;p<=j;p++){
